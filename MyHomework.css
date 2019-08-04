@@ -1,0 +1,296 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #000000 url(img06.jpg) repeat;
+	font-size: 18px;
+	color: #5B5B5B;
+}
+
+.container{
+	
+	margin:0 auto;
+	width:1000px;
+}
+
+.up{
+	background-color:black;
+	width:1000px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.up img{
+	width:262px;
+	
+}
+ h1{
+	color:green;
+	float:left;
+	font-size:45px;
+	padding-left:375px;
+	padding-bottom:0px;
+	
+}
+
+h2{
+	padding-left:525px;
+	color:green;
+	font-size:30px;
+	text-align:left;
+}
+h3{
+	color:#5B5B5B;;
+}
+ul{
+	padding:0px 20px 5px 770px;
+	text-decoration: none;
+}
+
+a{
+	color:green;
+	text-decoration: none;
+}
+
+.clear{
+	clear:both;
+}
+#menu {
+	float: right;
+	width: 500px;
+	height: 90px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#menu ul {
+	float: right;
+	margin: 0;
+	padding: 50px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+	padding: 0px 0px 0px 0px;
+	margin-right: 20px;
+}
+
+ul a:hover {
+	color: white;
+	
+}
+
+.lasttitle{
+	float:left;
+	color:green;
+	background-color:black;
+	padding:none;
+}
+
+.list2{
+	padding-left:750px;
+	font-size:20px;
+	background-color:black;
+	width:250px;
+	height:150px;
+	float:left;
+	border-radius:10px;
+	display: inline-block;
+	
+}
+
+.clear{
+	margin:0 auto;
+	width:1000px
+}
+.text1 {
+	float: left;
+	width: 207.5px;
+	margin-right: 30px;
+
+}
+.text1  img{
+	width:207.5px;
+	height:150px;
+}
+
+.text2{
+	float: left;
+	width: 207.5px;
+}
+.text2 img{
+	width:207.5px;
+	height:150px;
+}
+.text3 {
+	float: right;
+	width: 207.50px;
+}
+.text3 img{
+	width:207.5px;
+	height:150px;
+}
+ .text4{
+	float: right;
+	width: 207.5px;
+
+}
+.text4 img{
+	width:175.5px;
+	height:150px;
+}
+
+.down{
+	background-color:black;
+	width:1000px;
+	margin:0 auto;
+}
+
+
+.post {
+	overflow: hidden;
+	text-align:center;
+	border-radius: 15px;
+	padding: 30px;
+}
+
+.container  h1{
+	text-align:center;
+	color:green;
+}
+.game0 {
+	float: left;
+	width: 230.6px;
+	margin-right: 30px;
+
+}
+.game0  img{
+	width:230.6px;
+	height:150px;
+}
+
+.game1 {
+	float: left;
+	width: 230.6px;
+	margin-right: 30px;
+
+}
+.game1  img{
+	width:230.6px;
+	height:150px;
+}
+
+.game2{
+	float: left;
+	width: 230.6px;
+}
+.game2 img{
+	width:230.6px;
+	height:150px;
+}
+.game3 {
+	float: right;
+	width: 218.6px;
+}
+.game3 img{
+	width:218.6px;
+	height:150px;
+}
+.game4 {
+	float: left;
+	width: 230.6px;
+	margin-right: 30px;
+
+}
+.game4  img{
+	width:230.6px;
+	height:150px;
+}
+
+.game5 {
+	float: left;
+	width: 230.6px;
+	margin-right: 30px;
+
+}
+.game5  img{
+	width:230.6px;
+	height:150px;
+}
+
+.game6 {
+	float: left;
+	width: 230.6px;
+}
+.game6 img{
+	width:230.6px;
+	height:150px;
+}
+.game7 {
+	float: right;
+	width: 218.6px;
+}
+.game7 img{
+	width:218.6px;
+	height:150px;
+}
+.app1 {
+	float: left;
+	width: 230.6px;
+	margin-right: 30px;
+
+}
+.app1 img{
+	width:230.6px;
+	height:150px;
+}
+
+.app2 {
+	float: left;
+	width: 230.6px;
+	margin-right: 30px;
+
+}
+.app2  img{
+	width:230.6px;
+	height:150px;
+}
+
+.app3{
+	float: left;
+	width: 230.6px;
+}
+.app3 img{
+	width:230.6px;
+	height:150px;
+}
+.app4 {
+	float: right;
+	width: 218.6px;
+}
+.app4 img{
+	width:218.6px;
+	height:150px;
+}
+.content1{
+	text-align:center;
+	width:1000px;
+	
+	 margin:0 auto;
+}
+.content1 h2{
+	text-align:center;
+	padding-left:20px
+}
+.ord{
+	text-align:center;
+}
+.ord h2{
+	padding-left:5px;
+	text-align:center
+}
+.formular{
+	margin:0 auto;
+	padding-left:550px
+}
