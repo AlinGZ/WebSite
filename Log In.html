@@ -1,0 +1,114 @@
+
+
+<?php
+# username si parola
+$user_corect = 'admin1';
+$parola_corecta = 'ghiceste';
+ 
+
+$mesaj = '';
+if( isset( $_POST ) && !empty( $_POST[ 'trimite' ] ) ) {
+	
+ 
+	$erori = 0;
+	
+	if( !isset( $_POST[ 'user' ] ) || strlen( $_POST[ 'user' ] ) == 0 ) {
+		$mesaj =  'Numele de utilizator nu a fost specificat';
+		$erori = 1;
+	} elseif( !isset( $_POST[ 'pass' ] ) || strlen( $_POST[ 'pass' ] ) == 0 ) {
+		$mesaj = 'Parola nu a fost specificata';
+		$erori = 1;
+	}
+ 
+	
+	if( $erori == 0 ) {
+		# pentru acum, vom face o verificare simpla
+		if( 	$_POST[ 'user' ] === $user_corect &&
+				$_POST[ 'pass' ] === $parola_corecta )
+		{
+			# login realizat, redirectionez
+			echo 'Ati fost autentificat. Veti fi redirectionat...';
+			exit; # nu mai afisez nimic altceva
+		} else {
+			# nu s-a facut login
+			$mesaj = 'Username-ul sau parola sunt gresite';
+		}
+	}
+}
+
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Aliens touch-Order</title>
+	<link rel="shortucut icon" href="index.jpg" type=image/jpg />
+	<link rel="stylesheet" href="MyHomework.css" />
+</head>
+
+<div class="container">
+			<div class="up">
+				<header>
+					<div class="picture">
+						<img src="index.jpg" alt="" />
+						
+					</div>
+				
+					<h1>Aliens touch</h1>
+				
+					<p class="clear"></p>
+					<h2>Software beyond humanity...</h2>
+					<p class="clear"></p>
+				
+					<div id="menu">
+					<ul>
+						<li class="current_page_item"><a href="Home.html">Home</a></li>
+						<li class="current_page_item3"><a href="Store.html">Store</a></li>
+						<li class="current_page_item1"><a href="Order.html">Order</a></li>
+						<li class="current_page_item2"><a href="Log In.html">Log In</a></li>
+						<li class="current_page_item2"><a href="Create Account.html">Create Account</a></li>
+					</ul>
+					</div>
+				</header>
+			
+		</div>
+		
+	</div>	
+	
+
+ 
+<form action="" method="post" style="width: 30%">
+<fieldset>
+	<legend>Date de autentificare</legend>
+	<input type="text" name="user" /> User<br />
+	<input type="password" name="pass" /> Pass<br />
+</fieldset>
+ 
+<fieldset>
+	<legend>Actiuni</legend>
+	<input type="submit" value="Login" name="trimite" /> 
+	<input type="reset" value="Curata formular" /> 
+</fieldset>
+ 
+</form>
+ 
+ 
+ 
+ 
+ <div class="down">
+		<footer>				
+			<div class="list2">
+				
+				<div class="lasttitle">
+				<h3>You can also find us on:</h3>
+						
+				</div>									
+				<a href="http://wwww.facebook.com">Facebook</a>
+				<a href="http://www.twitter.com">Twitter</a>
+				<a href="http://www.youtube.com">YouTube</a>
+				</div>
+		</footer>
+		
+	</div>
+	
+</body>
+</html>
